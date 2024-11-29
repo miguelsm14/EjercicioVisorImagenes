@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VisorAnimalesAPP.Vista.AgregarAnimales"
+             Title="AgregarAnimales">
+    <StackLayout Padding="10">
+        <Entry Placeholder="Nombre" x:Name="nombre" />
+        <Entry Placeholder="Imagen" x:Name="imagen" />
+        <Editor Placeholder="Descripción" x:Name="descripcion" HeightRequest="200" />
+        <DatePicker x:Name="fecha" />
+        <Button Text="Guardar" Clicked="OnGuardarClicked" />
+    </StackLayout>
+</ContentPage>
